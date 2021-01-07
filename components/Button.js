@@ -1,1 +1,5 @@
-<Button primary>Button</Button>
+export default function Button(){
+return (
+<button>Button</button>
+)
+}
