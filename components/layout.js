@@ -33,6 +33,7 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <Button primary>Button</Button>
           </>
         ) : (
           <>
@@ -50,6 +51,7 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
+            <Button primary>Button</Button>
           </>
         )}
       </header>
@@ -59,6 +61,7 @@ export default function Layout({ children, home }) {
           <Link href="/">
             <a>← Back to home</a>
           </Link>
+          <Button primary>Button</Button>
         </div>
       )}
     </div>
