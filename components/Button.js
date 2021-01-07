@@ -1,1 +1,0 @@
-<Button primary>Button</Button>

@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedFlowersData } from '../lib/flowers'
 import Link from 'next/link'
 import styles from '../components/layout.module.css'
-
+import Button from '../components/Button'
 export async function getStaticProps() {
   const allFlowerData = getSortedFlowersData()
   return {
@@ -38,6 +38,7 @@ export default function Home ({ allFlowerData }) {
               <a>{title}</a>
             </Link>
             <br />
+            <Button/>
           </li>
           ))}
         </ul>
