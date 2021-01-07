@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Button from './Button'
 
 const name = 'Little Shop'
 export const siteTitle = 'Little Shop Website'
